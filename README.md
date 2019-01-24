@@ -4,8 +4,14 @@ Centralized server of configuration properties for applications with microservic
 
 ### Example:
 * Execute:
+
+  * `http://localhost:8888/` - config server address
+  * `eureka-server-1` - application name (`spring.application.name` property)
+  * `eureka-1` - active profile (`spring.application.profiles` property)
+  * `master` - branch name (optional), default value - `master`
+
 ```bash
-curl -X GET http://localhost:8888/eureka-server-1/eureka-1
+curl -X GET http://localhost:8888/eureka-server-1/eureka-1/master
 ```
 * Output:
 ```code
