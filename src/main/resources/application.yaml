@@ -1,0 +1,20 @@
+# Default port for config server
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          # git repository of configuration properties
+          uri: https://github.com/ae1663830a/config-server-resources
+          # authentication if repository is not public
+          # username: ae1663830a
+          # password: <PASSWORD>
+          # directories to search for configuration properties
+          search-paths:
+            - config/eureka-server
+          # branch from
+          default-label: master
