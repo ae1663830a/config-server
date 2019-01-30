@@ -1,6 +1,6 @@
 ## SPRING CLOUD CONFIG SERVER
 
-Centralized server of configuration properties for applications with microservices architecture.
+Centralized server of configuration properties for applications with microservice architecture.
 
 ### Example:
 * Execute:

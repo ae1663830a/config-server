@@ -16,5 +16,9 @@ spring:
           # directories to search for configuration properties
           search-paths:
             - config/eureka-server
+            - config/reactive-app
           # branch from
           default-label: master
+  # kafka:
+    # bootstrap-servers:
+      # - localhost:9092
