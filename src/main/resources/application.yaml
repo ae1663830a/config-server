@@ -15,6 +15,7 @@ spring:
           # password: <PASSWORD>
           # directories to search for configuration properties
           search-paths:
+            - config/burger-app
             - config/eureka-server
             - config/reactive-app
           # branch from
